@@ -1,0 +1,155 @@
+body
+{
+    margin: 0;
+    padding: 0;
+}
+section
+{
+    height: 100vh;
+    background: #000;   
+}
+section:before
+{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, #f00,#f00,#0f0,#0ff,#ff0,#0ff);
+    mix-blend-mode: color;
+    pointer-events: none;
+}
+video
+{
+    object-fit: cover;
+}
+h1
+{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    text-align: center;
+    color: #ddd;
+    font-size: 3em;
+    font-family: sans-serif;
+    letter-spacing: 0.010em;
+    opacity: 100;
+}
+h1 span
+{
+    opacity: 0;
+    display: inline-block;
+    animation: animate 1s linear forwards;
+}
+@keyframes animate
+{
+    0%
+    {
+        opacity: 0;
+        transform: rotateY(90deg);
+        filter: blur(10px);
+    }
+    100%
+    {
+        opacity: 1;
+        transform: rotateY(0deg);
+        filter: blur(0px);
+    }
+}
+h1 span:nth-child(1)
+{
+    animation-delay: 1s;
+}
+h1 span:nth-child(2)
+{
+    animation-delay: 2s;
+}
+h1 span:nth-child(3)
+{
+    animation-delay: 2.25s;
+}
+h1 span:nth-child(4)
+{
+    animation-delay: 2.5s;
+}
+h1 span:nth-child(5)
+{
+    animation-delay: 2.75s;
+}
+h1 span:nth-child(6)
+{
+    animation-delay: 3s;
+}
+h1 span:nth-child(7)
+{
+    animation-delay: 3.25s;
+}
+h1 span:nth-child(8)
+{
+    animation-delay: 3.5s;
+}
+h1 span:nth-child(9)
+{
+    animation-delay: 3.75s;
+}
+h1 span:nth-child(10)
+{
+    animation-delay: 4s;
+}
+h1 span:nth-child(11)
+{
+    animation-delay: 4.25s;
+}
+h1 span:nth-child(12)
+{
+    animation-delay: 4.5s;
+}
+h1 span:nth-child(13)
+{
+    animation-delay: 4.75s;
+}
+h1 span:nth-child(14)
+{
+    animation-delay: 5s;
+}
+h1 span:nth-child(15)
+{
+    animation-delay: 5.25s;
+}
+h1 span:nth-child(16)
+{
+    animation-delay: 5.5s;
+}
+h1 span:nth-child(17)
+{
+    animation-delay: 5.75s;
+}
+h1 span:nth-child(18)
+{
+    animation-delay: 6s;
+}
+h1 span:nth-child(19)
+{
+    animation-delay: 6.25s;
+}
+h1 span:nth-child(20)
+{
+    animation-delay: 6.5s;
+}
+h1 span:nth-child(21)
+{
+    animation-delay: 6.75s;
+}
+h1 span:nth-child(22)
+{
+    animation-delay: 7s;
+}
+h2
+{
+    color: #ddd;
+    text-align: center;
+}
